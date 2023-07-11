@@ -27,7 +27,7 @@ namespace MonoTests.System.Xaml
 {
 	public class SequenceItem
 	{
-		public SequenceItem([CallerMemberName]string name = "", [CallerLineNumber]int lineNumber = 0)
+		public SequenceItem([CallerMemberName]string ad = "", [CallerLineNumber]int lineNumber = 0)
 		{
 			SequenceMember = name;
 			SequenceLineNumber = lineNumber;
